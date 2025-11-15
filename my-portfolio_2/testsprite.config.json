@@ -1,0 +1,62 @@
+{
+  "projectType": "frontend",
+  "framework": "react",
+  "buildTool": "vite",
+  "applicationUrl": "http://localhost:5173",
+  "testType": "ui",
+  "components": [
+    {
+      "name": "Header",
+      "path": "src/components/Header.jsx",
+      "description": "Portfolio header with contact information"
+    },
+    {
+      "name": "Summary",
+      "path": "src/components/Summary.jsx",
+      "description": "Professional summary section"
+    },
+    {
+      "name": "Skills",
+      "path": "src/components/Skills.jsx",
+      "description": "Skills and technologies list"
+    },
+    {
+      "name": "Education",
+      "path": "src/components/Education.jsx",
+      "description": "Education background section"
+    },
+    {
+      "name": "Projects",
+      "path": "src/components/Projects.jsx",
+      "description": "Projects showcase section"
+    },
+    {
+      "name": "Contact",
+      "path": "src/components/Contact.jsx",
+      "description": "Contact information section"
+    }
+  ],
+  "testScenarios": [
+    {
+      "name": "Header Rendering",
+      "description": "Verify header displays name, email, phone, and social links correctly"
+    },
+    {
+      "name": "Navigation Sections",
+      "description": "Verify all sections (Summary, Skills, Education, Projects, Contact) are accessible"
+    },
+    {
+      "name": "Links Functionality",
+      "description": "Verify all external links (GitHub, LinkedIn, project links) work correctly"
+    },
+    {
+      "name": "Responsive Design",
+      "description": "Verify portfolio is responsive across different screen sizes"
+    },
+    {
+      "name": "Content Display",
+      "description": "Verify all content sections render properly with correct information"
+    }
+  ]
+}
+
